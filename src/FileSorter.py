@@ -46,8 +46,3 @@ class FileSorter:
                 os.rename(f'{path}/{file_name}.{file_type}', f'{file_folder}/{file_name}.{file_type}')
 
         print(f'{bcolors.OKGREEN}All files successfully sorted')
-
-
-
-
-FileSorter.sort_files_by_type('/Users/isaiah/Downloads/Fuji Film Simulations/test')

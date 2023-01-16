@@ -53,5 +53,3 @@ class RawDeleter:
                 print(f'\n{bcolors.OKGREEN}Successfully moved {file_name} to {unmatched_raw_folder}')
         else:
             print(f'{bcolors.FAIL}Deletion has been cancelled')
-
-RawDeleter.delete_raws_without_jpg('/Users/isaiah/Downloads/Fuji Film Simulations/test', 'RAF')
